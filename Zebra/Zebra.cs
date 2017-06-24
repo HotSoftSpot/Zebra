@@ -58,6 +58,7 @@ namespace Zebra
                     if (fileNames.Length == 0)
                     {
                         Console.WriteLine("No files found to work with, skipping dir : " + dir);
+
                         continue;
                     }
 
