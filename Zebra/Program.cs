@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Zebra
+﻿namespace Zebra
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static int Main(string[] args)
         {
+            Zebra zebra = new Zebra(args);
+            zebra.Run();
+            return 0;
         }
     }
 }
